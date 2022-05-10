@@ -2,7 +2,7 @@
 /* Declaring variables for color and font */
 :root {
     /* declare a variable with `--` syntax */
-    --dark: #c5006c;
+    --dark: #f10788;
     --darker: #52002d;
     --light: #cacaca;
     --background-color: #141817;
@@ -42,6 +42,7 @@
   h1 {
       color: var(--dark);
       font-size: 60px;
+      text-shadow: 0 0 10px var(--highlight), 0 0 5px var(--light);
   }
 
   /* Format the subtitle paragraph */
